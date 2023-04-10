@@ -337,7 +337,7 @@ processTeacher()  # Do this before badges, because it sets teacher approval, whi
 processReviewer() # Do this before badges, because it sets reviewer approval, which could trigger a writing of CSV in bages
 
 # This array holds the names of each badge that you want to run through the script. The format is "<badge name> level <level #>".
-badges = []
+badges = ["Cybersecurity Level 1"]
 for badge in badges:
   processBadge(badge)
 
